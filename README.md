@@ -1,6 +1,6 @@
 # AES-256-CBC Shellcode Decryptor and Executor in Rust
 
-This Rust application fetches encrypted shellcode and an encryption key from provided URLs, decrypts the shellcode using AES-256-CBC, and executes it in memory on Windows systems. It utilizes PBKDF2-inspired concepts and Windows API calls for memory allocation and execution. This project was inspired by foundational knowledge from *Gemini Cyber Security’s* video *["Getting Started with Rust - Bypass Windows Defender"](https://www.youtube.com/watch?v=o8af1KeMrRc&t=95s)*.
+This Rust application fetches encrypted shellcode and an encryption key from provided URLs, decrypts the shellcode using AES-256-CBC, and executes it in memory on Windows systems. It utilizes PBKDF2-inspired concepts and Windows API calls for memory allocation and execution. This project was inspired by foundational knowledge from *["Gemini Cyber Security’s"](https://www.youtube.com/@gemini_security)* video *["Getting Started with Rust - Bypass Windows Defender"](https://www.youtube.com/watch?v=o8af1KeMrRc&t=95s)*.
 
 > **Note:** This tool is intended for educational and security research purposes only. Use responsibly and in compliance with applicable laws.
 
