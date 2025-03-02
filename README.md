@@ -1,6 +1,6 @@
 # AES-256-CBC Shellcode Decryptor and Executor in Rust
 
-This Rust application fetches encrypted shellcode and an encryption key from provided URLs, decrypts the shellcode using AES-256-CBC, and executes it in memory on Windows systems. It utilizes PBKDF2-inspired concepts and Windows API calls for memory allocation and execution. This project was inspired by foundational knowledge from *Gemini Cyber Security’s* video *"Getting Started with Rust - Bypass Windows Defender"*.
+This Rust application fetches encrypted shellcode and an encryption key from provided URLs, decrypts the shellcode using AES-256-CBC, and executes it in memory on Windows systems. It utilizes PBKDF2-inspired concepts and Windows API calls for memory allocation and execution. This project was inspired by foundational knowledge from *Gemini Cyber Security’s* video *["Getting Started with Rust - Bypass Windows Defender"](https://www.youtube.com/watch?v=o8af1KeMrRc&t=95s)*.
 
 > **Note:** This tool is intended for educational and security research purposes only. Use responsibly and in compliance with applicable laws.
 
@@ -83,10 +83,11 @@ Decryption and execution succeeded.
 - **Error Handling**: Basic error reporting is implemented, but robust error handling should be added for production use.
 
 ## Credits
-This project was inspired by *Gemini Cyber Security* and their video *"Getting Started with Rust - Bypass Windows Defender"*. Special thanks to them for their educational content that helped guide this development.
+This project was inspired by *[Gemini Cyber Security](https://www.youtube.com/@gemini_security)* and their video *"Getting Started with Rust - Bypass Windows Defender"*. Special thanks to them for their educational content that helped guide this development.
 
 ## License
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
 ## Disclaimer
 This tool is for educational and research purposes only. The author is not responsible for any misuse or damage caused by this software. Use it at your own risk and ensure compliance with all relevant laws and regulations.
+
